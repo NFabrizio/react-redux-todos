@@ -5,6 +5,11 @@
  * for the app to work and display properly. The Provider component is a react-redux
  * piece of magic. It makes the store available to all container components in
  * the app without having to explicitly pass it to them.
+ *
+ * @see createStore()
+ * @see Meteor.startup()
+ * @see render()
+ * @see getElementById()
  */
 
 // Import everything needed to render the app
