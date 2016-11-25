@@ -14,6 +14,12 @@ import React, { PropTypes } from 'react';
 /**
  * Todo presentational component
  *
+ * Creates the li elements for displaying the items in the todo list. Sets the
+ * onClick event handler to the onClick callback defined in TodoList, and styles
+ * the li element based on whether the boolean completed is true or false. False
+ * will result in a line-through style while true will display the item normally.
+ * The text string will be displayed as the content of the li element.
+ *
  * @param {Function} $onClick - Callback to invoke when list element is clicked.
  *                              Defined in TodoList.js.
  * @param {Boolean} $completed - Boolean that represents whether the task is completed.

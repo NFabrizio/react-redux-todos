@@ -17,7 +17,7 @@ import Link from '/imports/components/Link';
  * Map state to props function
  *
  * Function that tells how to transform the current Redux store state into the
- * props that should be passed to the presenatational components. This method is
+ * props that should be passed to the presenatational components. This function is
  * used to determine if the ownProps filter matches the state
  * visibilityFilter. If these two filters match, the filter link should be active
  * since it is displaying the results for that filter.
