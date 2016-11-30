@@ -3,7 +3,7 @@
  *
  * Component that renders the li elements for displaying the todo list.
  *
- * @parents /imports/components/TodoList.js
+ * @parent /imports/components/TodoList.js
  *
  * @export Todo - Default. Export of the individual list elements for the todo list.
  */

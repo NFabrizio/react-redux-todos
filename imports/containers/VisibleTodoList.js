@@ -4,7 +4,7 @@
  * Container component that handles data flow and redux state changes for todo
  * list elements.
  *
- * @parents /imports/components/App.js
+ * @parent /imports/components/App.js
  *
  * @export VisibleTodoList - Default. Export of the unordered todo list.
  */

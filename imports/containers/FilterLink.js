@@ -3,7 +3,7 @@
  *
  * Container component that handles data flow and redux state changes for footer link elements.
  *
- * @parents /imports/components/Footer.js
+ * @parent /imports/components/Footer.js
  *
  * @export FilterLink - Default. Export of the links inside the footer.
  */

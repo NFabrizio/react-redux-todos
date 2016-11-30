@@ -2,6 +2,20 @@
  * Todos actions
  *
  * Sets up the actions and action creators for the app.
+ *
+ * @parent /imports/api/reducers/todos.js
+ * @parent /imports/containers/AddTodo.js
+ * @parent /imports/containers/VisibleTodoList.js
+ * @parent /imports/containers/FilterLink.js
+ *
+ * @export {String} $ADD_TODO - String representing the add todo action type.
+ * @export {String} $TOGGLE_TODO - String representing the toggle todo action type.
+ * @export {String} $SET_VISIBILITY_FILTER - String representing the set visibility
+ *                                           filter action type.
+ * @export {Object} $VisibilityFilters - Object representing the visibility filters.
+ * @export {Function} $addTodo - Add todo action creator.
+ * @export {Function} $toggleTodo - Toggle todo action creator.
+ * @export {Function} $setVisibilityFilter - Set visibility filter action creator.
  */
 
 /**
@@ -23,7 +37,16 @@ let nextTodoId = 0;
  * Action creators
  */
 
-// Handle the action of adding a todo
+/**
+ * Add todo action creator
+ *
+ * Accepts the text from the user input and creates a new object for use in
+ * updating the Redux state.
+ *
+ * @param {String} $text - Text string input by the user in the UI.
+ *
+ * @return {Object} - The add todo action object.
+ */
 export const addTodo = (text) => {
   return {
     type: ADD_TODO,
@@ -32,7 +55,16 @@ export const addTodo = (text) => {
   };
 }
 
-// Handle the action of toggling a todo on or off
+/**
+ * Toggle todo action creator
+ *
+ * Accepts the id of the todo and creates a new object for use in updating the
+ * Redux state.
+ *
+ * @param {Number} $id - ID of the todo to update.
+ *
+ * @return {Object} - The toggle todo action object.
+ */
 export const toggleTodo = (id) => {
   return {
     type: TOGGLE_TODO,
@@ -40,7 +72,16 @@ export const toggleTodo = (id) => {
   };
 }
 
-// Handle the action of setting the visibility filter for a todo
+/**
+ * Set visibility filter action creator
+ *
+ * Accepts the filter selected by the user in the UI and creates a new object
+ * for use in updating the Redux state.
+ *
+ * @param {String} $filter - Filter selected by the user.
+ *
+ * @return {Object} - The set visibilty filter action object.
+ */
 export const setVisibilityFilter = (filter) => {
   return {
     type: SET_VISIBILITY_FILTER,

@@ -3,7 +3,7 @@
  *
  * Component that renders the footer links to filter what is shown in the todos list.
  *
- * @parents /imports/components/App.js
+ * @parent /imports/components/App.js
  *
  * @export Footer - Default. Export of the filter links to display at the bottom of the todo list.
  */

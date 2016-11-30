@@ -3,7 +3,7 @@
  *
  * This is where the custom components that create the display for the app are set up.
  *
- * @parents /client/main.js
+ * @parent /client/main.js
  *
  * @export App - Default. Export of the base components to render the app.
  */

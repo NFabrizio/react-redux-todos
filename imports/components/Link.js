@@ -3,7 +3,7 @@
  *
  * Component that renders the actual a tags in the footer for filtering the todos list.
  *
- * @parents /imports/containers/FooterLink.js
+ * @parent /imports/containers/FooterLink.js
  *
  * @export Footer - Default. Export of the filter links to display at the bottom
  *                  of the todo list.

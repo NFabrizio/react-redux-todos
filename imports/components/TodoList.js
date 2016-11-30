@@ -3,7 +3,7 @@
  *
  * Container component that handles data flow and redux state changes for Todo list elements.
  *
- * @parents /imports/containers/VisibleTodoList.js
+ * @parent /imports/containers/VisibleTodoList.js
  *
  * @export TodoList - Default. Export of the list of todos.
  */

@@ -5,7 +5,7 @@
  * component is a hybrid container-presentational component since it handles both
  * the dispatching of the action and the presentation of the UI elements.
  *
- * @parents /imports/components/App.js
+ * @parent /imports/components/App.js
  *
  * @export AddTodo - Default. Export of the add todo form.
  */
