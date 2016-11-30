@@ -1,1 +1,4 @@
 /* React Redux in Meteor stylesheet */
+.todo-list {
+  cursor: pointer;
+}
